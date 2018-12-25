@@ -12,8 +12,8 @@ The goal is to show ```A:``` a way to get the google maps api running with vue a
 - Then you should be able to hit ```npm run serve``` to run it!
 
 ## Resources
-[GoogleMaps Api](https://developers.google.com/maps/documentation/javascript/tutorial)
-[Vue2-google-maps](https://www.npmjs.com/package/vue2-google-maps)
-[This Alligator.io Article](https://alligator.io/vuejs/vue-google-maps/)
-[VueX docs](https://vuex.vuejs.org/)
-[Vue docs](https://vuejs.org/v2/guide/)
+- [GoogleMaps Api](https://developers.google.com/maps/documentation/javascript/tutorial)
+- [Vue2-google-maps](https://www.npmjs.com/package/vue2-google-maps)
+- [This Alligator.io Article](https://alligator.io/vuejs/vue-google-maps/)
+- [VueX docs](https://vuex.vuejs.org/)
+- [Vue docs](https://vuejs.org/v2/guide/)
