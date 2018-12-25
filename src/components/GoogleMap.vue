@@ -45,6 +45,6 @@ export default {
 
 <style>
 gmap-autocomplete {
-  width: 20vw;
+  width: 100vw;
 }
 </style>
