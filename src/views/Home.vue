@@ -1,18 +1,27 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <GoogleMap :markers='markers' />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import GoogleMap from '@/components/GoogleMap.vue'
 
 export default {
   name: 'home',
+  data () {
+    return {
+      markers: [[12.41, -12.22], [15.15, 15.23]]
+    }
+  },
   components: {
-    HelloWorld
+    GoogleMap
+  },
+  mounted () {
+    console.log(this.markers, 'home')
   }
 }
 </script>
+
+<style>
+</style>
